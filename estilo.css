@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(115, 167, 115);
+}
+
+.Titulos{
+ background-color: azure;
+}
+
+#opcion1{
+    background-color: coral;
+}
+
+#opcion2{
+    background-color: chocolate;
+}
+
+.Secundario{
+    width: 50%;
+
+}
+
+.Productos{
+    width: 300px;
+}
