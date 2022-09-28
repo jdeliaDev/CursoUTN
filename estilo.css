@@ -1,11 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}*/
 body{
-    background-color: rgb(115, 167, 115);
+    background-color: rgb(136, 184, 136);
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
 }
 
-.Titulos{
+ul{
+    background-color: transparent;
+    list-style-type: none;
+    padding: 10px;
+    width: 30%;
+}
+
+.item_menu{
+    display: inline;
+    padding: 10px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.TituloPrincipal{
  background-color: azure;
+ text-shadow: 5px 5px greenyellow;
 }
-
+ 
 #opcion1{
     background-color: coral;
 }
@@ -14,9 +41,12 @@ body{
     background-color: chocolate;
 }
 
-.Secundario{
-    width: 50%;
-
+.TitulosSecundarios{
+    width: 200%;
+    background-color: aqua;
+    padding: 10px;
+    margin: 40px;
+    box-sizing: border-box;
 }
 
 .Productos{
